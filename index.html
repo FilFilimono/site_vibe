@@ -93,3 +93,191 @@
       </div>
     </div>
   </section>
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label light">Что мы делаем</div>
+        <h2 class="section-title light">Наши услуги</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-num">01</div>
+          <h3>Жилое строительство</h3>
+          <p>Многоквартирные дома, коттеджные посёлки, таунхаусы — от фундамента до ключей.</p>
+        </div>
+        <div class="service-card featured">
+          <div class="service-num">02</div>
+          <h3>Коммерческая недвижимость</h3>
+          <p>Офисные центры, торговые площади, гостиницы и апарт-комплексы.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">03</div>
+          <h3>Промышленное строительство</h3>
+          <p>Заводы, склады, производственные цеха с учётом технологических требований.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">04</div>
+          <h3>Ремонт и реконструкция</h3>
+          <p>Капитальный ремонт и модернизация существующих объектов любой сложности.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">05</div>
+          <h3>Проектирование</h3>
+          <p>Полный цикл проектных работ: архитектура, конструктив, инженерные системы.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">06</div>
+          <h3>Генеральный подряд</h3>
+          <p>Управление проектом под ключ — от согласований до сдачи объекта.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-label">Портфолио</div>
+      <h2 class="section-title">Реализованные проекты</h2>
+      <div class="projects-grid">
+        <div class="project-card tall">
+          <div class="project-img pi-1"></div>
+          <div class="project-overlay">
+            <span class="project-cat">Жилой комплекс</span>
+            <h3>ЖК «Северный квартал»</h3>
+            <p>24 000 м² · Сдан 2022</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img pi-2"></div>
+          <div class="project-overlay">
+            <span class="project-cat">Коммерция</span>
+            <h3>Бизнес-центр «Магнит»</h3>
+            <p>8 500 м² · Сдан 2021</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img pi-3"></div>
+          <div class="project-overlay">
+            <span class="project-cat">Промышленность</span>
+            <h3>Завод металлоконструкций</h3>
+            <p>15 000 м² · Сдан 2023</p>
+          </div>
+        </div>
+        <div class="project-card wide">
+          <div class="project-img pi-4"></div>
+          <div class="project-overlay">
+            <span class="project-cat">Реконструкция</span>
+            <h3>ТРЦ «Центральный»</h3>
+            <p>32 000 м² · Сдан 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <div class="section-label light">Свяжитесь с нами</div>
+        <h2 class="section-title light">Готовы обсудить<br/>ваш проект?</h2>
+        <p class="contact-desc">Оставьте заявку — мы перезвоним в течение 30 минут и ответим на все вопросы.</p>
+        <div class="contact-details">
+          <div class="contact-item">
+            <span class="ci-icon">📞</span>
+            <div>
+              <strong>Телефон</strong>
+              <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="ci-icon">📧</span>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:info@stroygrupp.ru">info@stroygrupp.ru</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="ci-icon">📍</span>
+            <div>
+              <strong>Адрес</strong>
+              <span>Москва, ул. Строителей, 12</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="ci-icon">🕐</span>
+            <div>
+              <strong>Режим работы</strong>
+              <span>Пн–Пт: 9:00–18:00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label>Ваше имя</label>
+          <input type="text" placeholder="Иван Петров" required />
+        </div>
+        <div class="form-group">
+          <label>Телефон</label>
+          <input type="tel" placeholder="+7 (___) ___-__-__" required />
+        </div>
+        <div class="form-group">
+          <label>Тип объекта</label>
+          <select>
+            <option>Жилое строительство</option>
+            <option>Коммерческая недвижимость</option>
+            <option>Промышленный объект</option>
+            <option>Ремонт / Реконструкция</option>
+            <option>Другое</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Комментарий</label>
+          <textarea placeholder="Расскажите о вашем проекте..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary full">Отправить заявку</button>
+        <p class="form-note">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+        <div class="form-success" id="formSuccess">✔️ Заявка отправлена! Ждите звонка.</div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="logo">СТРОЙГРУПП</div>
+        <p>Строим надёжно с 2004 года</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">О нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#projects">Проекты</a>
+        <a href="#contact">Контакты</a>
+      </div>
+      <div class="footer-copy">© 2024 СтройГрупп. Все права защищены.</div>
+    </div>
+  </footer>
+
+  <script>
+    function handleSubmit(e) {
+      e.preventDefault();
+      document.getElementById('formSuccess').style.display = 'block';
+      e.target.reset();
+    }
+
+    // Staggered reveal on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(el => {
+        if (el.isIntersecting) el.target.classList.add('visible');
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.service-card, .project-card, .feature, .stat').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
